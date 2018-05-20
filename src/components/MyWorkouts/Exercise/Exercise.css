@@ -1,0 +1,43 @@
+.Exercise{
+  background-color:white; 
+  border-radius:5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 30px 5px 30px 5px;
+  -moz-border-radius: 30px 5px 30px 5px;
+  -webkit-border-radius: 30px 5px 30px 5px;
+  border: 1px solid #a8a8a8;
+}
+.ExerciseHeader{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr;
+    grid-gap: 0.5em;
+    justify-content: space-around;
+}
+.shadow5{
+    position: relative;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;
+}
+.shadow5:before, .shadow5:after{
+    position:absolute;
+    content:"";
+    box-shadow:0 10px 25px 20px rgb(113, 97, 136);
+    top:40px;left:10px;bottom:50px;
+    width:15%;
+    z-index:-1;
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    transform: rotate(-8deg);
+  }
+  .shadow5:after{
+    -webkit-transform: rotate(8deg);
+    -moz-transform: rotate(8deg);
+    transform: rotate(8deg);
+    right: 10px;left: auto;
+  }
+
+  .TrashBtn{
+    margin: 0;
+    padding: 0;
+  }
+

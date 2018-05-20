@@ -1,0 +1,16 @@
+.Input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.InpuElement{
+    width: 100%;
+    border: 2px solid rgb(50, 172, 56);
+}
